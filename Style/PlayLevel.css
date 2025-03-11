@@ -1,0 +1,32 @@
+.play,.Score{
+    -fx-pref-width: 200px;
+    -fx-padding: 10;
+    -fx-background-color: #6B4F3F;
+    -fx-font-size:15;
+    -fx-font-weight: bold;
+    -fx-text-fill:#F2E6D5;
+    -fx-border-radius: 40;
+    -fx-background-radius: 40;
+}
+
+.play:hover,.Score:hover{
+    -fx-background-color: #D7C7A1; 
+    -fx-text-fill: #4A3B2E;              
+    -fx-border-color: #F2E6D5;       
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.5, 0, 4);
+}
+
+.playLayout{
+    -fx-background-image: url("/Image/image3.jpg"); 
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 500px;
+    -fx-pref-height:600px;
+}
+.Header{
+/*    -fx-pref-width: 200px;
+    -fx-pref-height:200px;*/
+    -fx-background-color:transparent;
+    -fx-alignment:TOP_CENTER;
+}

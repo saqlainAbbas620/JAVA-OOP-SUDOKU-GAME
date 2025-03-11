@@ -1,0 +1,132 @@
+.Game{
+    -fx-background-image: url("/Image/main2.jpg"); 
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    
+}
+.cells{
+    -fx-pref-width:40px;
+    -fx-pref-height:40px;
+    -fx-background-color: #F2E6D5;
+    -fx-text-fill:#6B4F3F ;
+    -fx-font-size:15;
+}
+.cells:pressed{
+    -fx-background-color:#D7C7A1;
+}
+.cells:focused{
+    -fx-background-color:#D7C7A1;
+}
+.numberButton{
+    -fx-pref-width: 30px;
+    -fx-pref-height:30px;
+    -fx-background-color: #6B4F3F;
+    -fx-font-size:20;
+    -fx-font-weight: 600;
+    -fx-text-fill:#F2E6D5;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+}
+.numberButton:hover{
+    -fx-background-color: #D7C7A1; 
+    -fx-text-fill: #4A3B2E;              
+    -fx-border-color: #F2E6D5;       
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.5, 0, 4);
+}
+.timeLabel{
+    
+    -fx-pref-width:150px;
+    -fx-pref-height:40px;
+    -fx-background-image:url("/Image/timer2.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-text-fill:red;
+    -fx-font-weight:bold;
+    -fx-font-family:"OCR A Extended";
+    -fx-alignment: center;  
+    -fx-border-radius: 40;
+    -fx-background-radius: 40;
+    -fx-effect: dropshadow(gaussian, rgba(5, 5, 5, 0.7), 10, 0.9, 1, 6);
+}
+.restartButton,.closeButton,.pauseButton,.ExitButton,.restartButton{
+    -fx-background-color:transparent;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    /*-fx-left:400px;*/
+    
+    
+}
+.restartButton:hover,.closeButton:hover,.pauseButton:hover,.restartButton:hover,.ExitButton:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.5, 0, 4);
+}
+
+
+.CongratsMessage{
+    -fx-pref-height:400px;
+    -fx-pref-width:400px;
+    -fx-background-image:url("/Image/Score2.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color: #6B4F3F;
+    -fx-border-width: 5px;
+    -fx-alignment: CENTER;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 10, 0.5, 0, 2);
+}
+.congratsLabel{
+    -fx-font-family:"Courier New";
+    -fx-font-weight: bolder;
+    -fx-wrap-text:true;
+    -fx-alignment:CENTER;
+    -fx-text-alignment: center;
+    -fx-font-color:#F2E6D5;
+    -fx-font-size:25px;
+}
+.SC{
+    -fx-font-family:"Monospaced";
+    -fx-font-size:40px;
+    -fx-font-weight: bolder;
+    -fx-font-color:#F2E6D5;
+    -fx-alignment: CENTER;
+}
+
+
+.ScoreLayout{
+    -fx-pref-height:400px;
+    -fx-pref-width:400px;
+    -fx-background-image:url("/Image/ScoreImage.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color: #6B4F3F;
+    -fx-border-width: 5px;
+    -fx-alignment: CENTER;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 10, 0.5, 0, 2);
+}
+.TotalScore{
+    -fx-pref-width:300px;
+    -fx-pref-height:100px;
+    -fx-font-family:"Courier New";
+    -fx-font-weight: bolder;
+    -fx-font-size:20px;
+    -fx-alignment:CENTER;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+}
+.Score{
+    -fx-font-family:"Courier New";
+    -fx-font-weight: bolder;
+    -fx-font-size:40px;
+    -fx-alignment:CENTER;
+    -fx-text-alignment: center;
+}
+.BackButton{
+    -fx-background-color:transparent;
+    -fx-rotate: 180;
+    -fx-alignment: top-left;
+}
+.BackButton:hover{
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 10, 0.5, 0, 2);
+}

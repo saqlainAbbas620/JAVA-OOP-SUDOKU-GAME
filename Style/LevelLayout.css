@@ -1,0 +1,33 @@
+.EasyButton,.MediumButton,.HardButton{
+    -fx-pref-width: 200px;
+    -fx-padding: 10;
+    -fx-background-color: #6B4F3F;
+    -fx-font-size:15;
+    -fx-font-weight: bold;
+    -fx-text-fill:#F2E6D5;
+    -fx-border-radius: 40;
+    -fx-background-radius: 40;
+}
+.EasyButton:hover,.MediumButton:hover,.HardButton:hover{
+    -fx-background-color: #D7C7A1; 
+    -fx-text-fill: #4A3B2E;              
+    -fx-border-color: #F2E6D5;       
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.5, 0, 4);
+}
+.LevelLayout{
+    -fx-background-image: url("/Image/image4.jpg"); 
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-font-family:"Viner Hand ITC";
+    -fx-font-weight:bolder;
+    -fx-font-size:50px;
+    -fx-pref-width: 500px;
+    -fx-pref-height:600px;
+}
+.levelHead{
+    -fx-font-size:100px;
+    -fx-alignment: TOP_CENTER;
+    -fx-text-alignment: center;
+    /*-fx-text-fill:#D7C7A1;*/
+}
