@@ -4,8 +4,7 @@ This is a Sudoku game developed in Java, featuring a fully playable 9x9 Sudoku b
 Features
 ✅ Sudoku Board Generation – Randomly generates valid Sudoku puzzles
 ✅ User Input Handling – Allows users to fill in numbers with validation
-✅ Hint System – Provides hints for solving tricky puzzles
-✅ Sudoku Solver – Solves any valid Sudoku puzzle automatically
+✅ Different diffcultly Levels
 ✅ Graphical Interface (if applicable) – Built using Swing/JavaFX for an interactive experience
 ✅ Error Detection – Highlights incorrect entries
 
